@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF33353019D4EF1B004BC678 /* CreateTeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF33352F19D4EF1B004BC678 /* CreateTeamTableViewController.swift */; };
+		AF34623B19DCDCD10063E782 /* RosterStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34623A19DCDCD10063E782 /* RosterStore.swift */; };
+		AF34623D19DD871A0063E782 /* PlayerSelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34623C19DD871A0063E782 /* PlayerSelectTableViewCell.swift */; };
+		AF370B3B19D25AAE00E87F76 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF370B3A19D25AAE00E87F76 /* AddTaskViewController.swift */; };
+		AF41D2F219D36DC7004BC771 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41D2F119D36DC6004BC771 /* Player.swift */; };
+		AF41D2F419D36E59004BC771 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41D2F319D36E59004BC771 /* Statistics.swift */; };
+		AF41D2F619D39465004BC771 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41D2F519D39465004BC771 /* CSV.swift */; };
+		AF41D2FA19D39927004BC771 /* hitters.csv in Resources */ = {isa = PBXBuildFile; fileRef = AF41D2F919D39927004BC771 /* hitters.csv */; };
 		AF4DA98119D0EDA500E8EF30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA98019D0EDA500E8EF30 /* AppDelegate.swift */; };
 		AF4DA98319D0EDA500E8EF30 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA98219D0EDA500E8EF30 /* MasterViewController.swift */; };
 		AF4DA98519D0EDA500E8EF30 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA98419D0EDA500E8EF30 /* DetailViewController.swift */; };
@@ -14,6 +22,9 @@
 		AF4DA98A19D0EDA500E8EF30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4DA98919D0EDA500E8EF30 /* Images.xcassets */; };
 		AF4DA98D19D0EDA500E8EF30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF4DA98B19D0EDA500E8EF30 /* LaunchScreen.xib */; };
 		AF4DA99919D0EDA500E8EF30 /* Todo3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DA99819D0EDA500E8EF30 /* Todo3_0Tests.swift */; };
+		AFCEBFC819D0F5BE001C82FC /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCEBFC719D0F5BE001C82FC /* DismissSegue.swift */; };
+		AFCEBFCA19D0F918001C82FC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCEBFC919D0F918001C82FC /* Task.swift */; };
+		AFCEBFCC19D0F9D0001C82FC /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCEBFCB19D0F9D0001C82FC /* TaskStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF33352F19D4EF1B004BC678 /* CreateTeamTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTeamTableViewController.swift; sourceTree = "<group>"; };
+		AF34623A19DCDCD10063E782 /* RosterStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RosterStore.swift; sourceTree = "<group>"; };
+		AF34623C19DD871A0063E782 /* PlayerSelectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSelectTableViewCell.swift; sourceTree = "<group>"; };
+		AF370B3A19D25AAE00E87F76 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		AF41D2F119D36DC6004BC771 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		AF41D2F319D36E59004BC771 /* Statistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		AF41D2F519D39465004BC771 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		AF41D2F919D39927004BC771 /* hitters.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hitters.csv; sourceTree = "<group>"; };
 		AF4DA97B19D0EDA500E8EF30 /* Todo3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4DA97F19D0EDA500E8EF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF4DA98019D0EDA500E8EF30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +57,9 @@
 		AF4DA99219D0EDA500E8EF30 /* Todo3.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Todo3.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4DA99719D0EDA500E8EF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF4DA99819D0EDA500E8EF30 /* Todo3_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo3_0Tests.swift; sourceTree = "<group>"; };
+		AFCEBFC719D0F5BE001C82FC /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
+		AFCEBFC919D0F918001C82FC /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		AFCEBFCB19D0F9D0001C82FC /* TaskStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +105,20 @@
 				AF4DA98219D0EDA500E8EF30 /* MasterViewController.swift */,
 				AF4DA98419D0EDA500E8EF30 /* DetailViewController.swift */,
 				AF4DA98619D0EDA500E8EF30 /* Main.storyboard */,
+				AF34623C19DD871A0063E782 /* PlayerSelectTableViewCell.swift */,
+				AF33352F19D4EF1B004BC678 /* CreateTeamTableViewController.swift */,
+				AF370B3A19D25AAE00E87F76 /* AddTaskViewController.swift */,
+				AFCEBFC919D0F918001C82FC /* Task.swift */,
+				AFCEBFCB19D0F9D0001C82FC /* TaskStore.swift */,
+				AF34623A19DCDCD10063E782 /* RosterStore.swift */,
+				AFCEBFC719D0F5BE001C82FC /* DismissSegue.swift */,
 				AF4DA98919D0EDA500E8EF30 /* Images.xcassets */,
 				AF4DA98B19D0EDA500E8EF30 /* LaunchScreen.xib */,
+				AF41D2F919D39927004BC771 /* hitters.csv */,
 				AF4DA97E19D0EDA500E8EF30 /* Supporting Files */,
+				AF41D2F119D36DC6004BC771 /* Player.swift */,
+				AF41D2F319D36E59004BC771 /* Statistics.swift */,
+				AF41D2F519D39465004BC771 /* CSV.swift */,
 			);
 			path = Todo3.0;
 			sourceTree = "<group>";
@@ -195,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF41D2FA19D39927004BC771 /* hitters.csv in Resources */,
 				AF4DA98819D0EDA500E8EF30 /* Main.storyboard in Resources */,
 				AF4DA98D19D0EDA500E8EF30 /* LaunchScreen.xib in Resources */,
 				AF4DA98A19D0EDA500E8EF30 /* Images.xcassets in Resources */,
@@ -216,8 +250,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF4DA98519D0EDA500E8EF30 /* DetailViewController.swift in Sources */,
+				AF41D2F419D36E59004BC771 /* Statistics.swift in Sources */,
+				AF41D2F619D39465004BC771 /* CSV.swift in Sources */,
+				AFCEBFC819D0F5BE001C82FC /* DismissSegue.swift in Sources */,
+				AF34623D19DD871A0063E782 /* PlayerSelectTableViewCell.swift in Sources */,
+				AF34623B19DCDCD10063E782 /* RosterStore.swift in Sources */,
 				AF4DA98319D0EDA500E8EF30 /* MasterViewController.swift in Sources */,
+				AF33353019D4EF1B004BC678 /* CreateTeamTableViewController.swift in Sources */,
+				AFCEBFCA19D0F918001C82FC /* Task.swift in Sources */,
+				AF41D2F219D36DC7004BC771 /* Player.swift in Sources */,
 				AF4DA98119D0EDA500E8EF30 /* AppDelegate.swift in Sources */,
+				AFCEBFCC19D0F9D0001C82FC /* TaskStore.swift in Sources */,
+				AF370B3B19D25AAE00E87F76 /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +453,7 @@
 				AF4DA99E19D0EDA500E8EF30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF4DA99F19D0EDA500E8EF30 /* Build configuration list for PBXNativeTarget "Todo3.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +462,7 @@
 				AF4DA9A119D0EDA500E8EF30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
